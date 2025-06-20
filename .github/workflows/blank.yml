@@ -38,7 +38,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls -l
-          echo ${{ env.APPNAME }}
+          echo ${{ vars.APPNAME }}
           whoami
           uptime
           echo done
