@@ -41,3 +41,4 @@ jobs:
           echo ${{ env.APPNAME }}
           whoami
           uptime
+          echo done
